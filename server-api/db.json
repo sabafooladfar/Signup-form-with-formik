@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "saba",
+      "email": "saba@ex.com",
+      "phoneNumber": "09170000000",
+      "password": "saba1379",
+      "passwordConfirm": "saba1379",
+      "gender": "1",
+      "nationality":"select nationality",
+      "intrests":[],
+      "terms":false
+    }
+  ]
+  }

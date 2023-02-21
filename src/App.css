@@ -1,6 +1,9 @@
 body {
   background-color: rgba(164, 161, 158, 0.155);
 }
+.title{
+  text-align: center;
+}
 .formContainer {
   display: flex;
   flex-direction: column;
@@ -11,7 +14,8 @@ body {
 .formContainer div {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  justify-content: center;
+  margin-top: 10px;
 }
 .formContainer div input {
   width: 400px;
@@ -30,4 +34,21 @@ body {
   padding: 5px 10px;
   background-color: rgba(164, 161, 158, 0.461);
   cursor: pointer;
+  margin-top: 5px;
+}
+.error{
+  color: red;
+  font-size: smaller;
+}
+.radioContainer {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  
+}
+.radioContainer div{
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+  /* flex-direction: row; */
 }
