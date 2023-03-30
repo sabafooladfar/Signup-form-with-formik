@@ -18,8 +18,8 @@ const Radio = ({ formik, name, options }) => {
           </React.Fragment>
         );
       })}
-      {formik.errors.name && formik.touched.name && (
-        <div className="error">{formik.errors.name}</div>
+      {formik.errors[name] && formik.touched[name] && (
+        <div className="error">{formik.errors[name]}</div>
       )}
     </div>
   );

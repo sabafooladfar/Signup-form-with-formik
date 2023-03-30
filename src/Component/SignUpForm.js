@@ -22,7 +22,7 @@ const checkBoxOptions = [
   { label: "React.js", value: "react" },
   { label: "JavaScript", value: "js" },
 ];
-// console.log(selectOptions);
+// console.log(selectOptions[1]);
 const initialValues = {
   name: "",
   email: "",
@@ -102,7 +102,7 @@ const SignUpForm = () => {
         name="nationality"
       />
       <CheckBox options={checkBoxOptions} name="intrests" formik={formik} />
-      <div>
+      <div className="terms">
         <label htmlFor="terms">Terms and Conditions</label>
         <input
           type="checkbox"

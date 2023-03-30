@@ -1,11 +1,13 @@
 const SelectComponent = ({ selectOptions, formik, name }) => {
   return (
-    <div>
+    <div className="select">
       <select {...formik.getFieldProps(name)} name={name}>
         {selectOptions.map((item) => {
-          <option key={item.value} value={item.value}>
-            {item.label}
-          </option>;
+          return (
+            <option key={item.value} value={item.value}>
+              {item.label}
+            </option>
+          );
         })}
       </select>
       {formik.errors[name] && formik.touched[name] && (

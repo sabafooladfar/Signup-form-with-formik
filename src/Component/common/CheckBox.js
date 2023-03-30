@@ -2,7 +2,7 @@ import React from "react";
 
 const CheckBox = ({ formik, name, options }) => {
   return (
-    <div>
+    <div className="checkbox">
       {options.map((option) => {
         return (
           <React.Fragment key={option.value}>

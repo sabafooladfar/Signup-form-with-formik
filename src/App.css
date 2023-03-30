@@ -1,7 +1,7 @@
 body {
   background-color: rgba(164, 161, 158, 0.155);
 }
-.title{
+.title {
   text-align: center;
 }
 .formContainer {
@@ -36,19 +36,25 @@ body {
   cursor: pointer;
   margin-top: 5px;
 }
-.error{
+.error {
   color: red;
   font-size: smaller;
 }
-.radioContainer {
+
+.radioContainer div,
+.checkbox,
+.terms {
   display: flex;
   flex-direction: row !important;
-  justify-content: center;
-  
-}
-.radioContainer div{
-  display: flex;
-  /* justify-content: ; */
   align-items: center;
-  /* flex-direction: row; */
+  justify-content: center;
+}
+.radioContainer div input,
+.checkbox input,
+.terms input {
+  width: 10px !important;
+  margin-right: 5px;
+}
+.select {
+  width: 400px;
 }
