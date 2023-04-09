@@ -34,7 +34,7 @@ body {
   padding: 5px 10px;
   background-color: rgba(164, 161, 158, 0.461);
   cursor: pointer;
-  margin-top: 5px;
+  margin: 30px 0;
 }
 .error {
   color: red;
@@ -55,6 +55,14 @@ body {
   width: 10px !important;
   margin-right: 5px;
 }
-.select {
+
+.select select{
   width: 400px;
+  outline: none;
+  border: 1px solid #685f5f57;
+  border-radius: 3px;
+  padding: 4px;
+}
+button:disabled{
+  cursor: not-allowed;
 }
